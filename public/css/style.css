@@ -17,6 +17,12 @@ body {
     width: 100%;
 }
 
+.container-1 {
+    position: relative;
+    margin: -8px;
+    height: 120%;
+    width: 100%;
+}
 #home {
     position: absolute;
     top: 8px;
@@ -36,7 +42,23 @@ body {
 #portfolio{
     position: absolute;
     top: 8px;
-    left: 12%;
+    left: 11%;
+    font-size: 18px;
+    color: rgb(173, 177, 180);
+}
+
+#github {
+    position: absolute;
+    top: 8px;
+    right: 15%;
+    font-size: 18px;
+    color: rgb(173, 177, 180);
+}
+
+#linkdin{
+    position: absolute;
+    top: 8px;
+    right: 10%;
     font-size: 18px;
     color: rgb(173, 177, 180);
 }
@@ -113,3 +135,63 @@ img {
   #message {
       margin-right: 1.8vw;
   }
+ 
+ #projectOne {
+   width: 300px;
+   height:250px;
+ }
+
+ .movin {
+     color:white;
+     margin:2vw;
+ }
+
+
+#row-1{
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    font-size: 1vw;
+    font-family: "Lucida Handwriting", cursive;
+    padding-right: 5px;
+}
+
+#row-2{
+    position: absolute;
+    top: 13%;
+    left: 28%;
+    font-size: 1vw;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#row-3{
+    position: absolute;
+    top: 13%;
+    left: 51%;
+    font-size: 1vw;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#row-4{
+    position: absolute;
+    top: 13%;
+    left: 74%;
+    font-size: 1vw;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#row-5{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 1vw;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#row-6{
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    font-size: 1vw;
+    font-family: "Lucida Handwriting", cursive;
+}
