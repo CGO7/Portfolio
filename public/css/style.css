@@ -1,0 +1,115 @@
+/* CSS for the home page */
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    margin: -8px;
+    height: 90%;
+    width: 100%;
+}
+
+#home {
+    position: absolute;
+    top: 8px;
+    left: 1%;
+    font-size: 18px;
+    color: rgb(173, 177, 180)
+}
+
+#contact{
+    position: absolute;
+    top: 8px;
+    left: 6%;
+    font-size: 18px;
+    color: rgb(173, 177, 180);
+}
+
+#portfolio{
+    position: absolute;
+    top: 8px;
+    left: 11%;
+    font-size: 18px;
+    color: rgb(173, 177, 180);
+}
+
+h1{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-size: 2vw;
+    color: rgb(16, 51, 78);
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#img-text {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-size: 1vw;
+    color: rgb(16, 51, 78);
+    font-family: "Lucida Handwriting", cursive;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-body-index {
+    background-color: rgb(111, 113, 121);
+    width: 100%;
+    height: 10%;
+    margin-top: -100px;
+    margin-left: -8px;
+    text-align: center;
+  }
+
+.card-text {
+    padding:1vw;
+    margin: 100px;
+    color: rgb(196, 212, 236);
+    font-size: 1vw;
+  }
+
+/* CSS for the contact page */
+
+.card-body {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 1vw;
+    color: rgb(16, 51, 78);
+    font-family: "Lucida Handwriting", cursive;
+    background-color: rgb(88, 85, 85);
+    height: 50%;
+    color: whitesmoke;
+  }
+
+
+  #footer {
+    background-color: rgb(211, 80, 19);
+    width: 100%;
+    height: 10%;
+    margin-top: -100px;
+    margin-left: -8px;
+    text-align: center;
+  }
+
+  #subject {
+      margin-right: 2.3vw;
+  }
+
+  #message {
+      margin-right: 1.8vw;
+  }
