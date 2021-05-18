@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const { response } = require('express');
 const { Portfolio, Project } = require('../models');
 
 // GET all portfolio for homepage
@@ -38,6 +39,12 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.get('contact', (req, res) => {
+  
+   res.render('contact')
+}); 
+
 
 // // GET one gallery
 // router.get('/gallery/:id', async (req, res) => {
